@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+
+:root{
+	--cor-um: #d8f3dc;
+	--cor-dois: #52b788;
+	--cor-tres: #40916c;
+	--cor-quatro: #2d6a4f;
+	--cor-cinco: #081c15;
+
+	--fonte-primaria: 'montserrat', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	background-color:var(--cor-um);
+	color: var(--cor-dois);
+}
+header{
+	padding: 2% 0% 0% 15%;
+	align-items: baseline;
+}
+nav{
+	display: flex;
+	gap: 80px;
+}
+.navegacao{
+text-decoration: none;
+color: var(--cor-secundaria);
+font-family: var(--fonte-primaria);
+font-weight: 600;
+font-size: 20px;
+}
+.conteudo{
+	padding: 5% 15%;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	gap: 80px;
+}
+.apresetacao__conteudo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.apresetacao__conteudo__pagdois{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.titulo__conteudo{
+	font-family: var(--fonte-primaria);
+	font-weight: 600;
+	font-size: 32px;
+	gap: 20%;
+}
+.subtitulo__conteudo{
+	font-family: var(--fonte-primaria);
+	font-weight: 500;
+	font-size: 24px;
+}
+.subtitulo__conteudo__seguranca{
+	font-family: var(--fonte-primaria);
+	font-weight: 600;
+	font-size: 24px;
+}
+.caracteristicas__conteudo{
+	font-family: var(--fonte-primaria);
+	font-weight: 400;
+	font-size: 16px;
+}
+#negrito{
+	font-family: var(--fonte-primaria);
+	font-weight: 600;
+	font-size: 16px;
+}
+.alimetacao__conteudo{
+	font-family: var(--fonte-primaria);
+	font-weight: 400;
+	font-size: 16px;
+}
+.conteudo__divisao__curiosidades{
+	border: 1px solid var(--cor-tres);
+	border-radius: 10px;
+    padding: 50px;
+}
+.curiosidades__conteudo{
+	font-family: var(--fonte-primaria);
+	font-weight: 400;
+	font-size: 16px;	
+}
+.imagem__dois{
+	width: 10%;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 2% 15%;
+
+}
+.navegacao__botao{
+	display:flex;
+	justify-content: center;
+	gap:16px;
+	width: 50%;
+	text-align: center;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: var(--fonte-primaria);
+	padding: 21px 0px;
+	text-decoration: none;
+	color:var(--cor-tres); 
+	border: 2px solid var(--cor-dois);
+}
+.navegacao__botao:hover{
+	color: var(--cor-dois);
+}
+.rodape{
+	font-family: var(--fonte-primaria);
+	background-color: var(--cor-tres);
+	color:var(--cor-um);
+	padding: 24px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+}
